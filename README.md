@@ -3,7 +3,7 @@ WheelPicker
 
 WheelPicker is a library to provides a dialog fragment to pick two string value.
 
-![screen shot](http://imgur.com/kVD7cfh)
+![screen shot](http://i.imgur.com/kVD7cfh.gif)
 
 
 
