@@ -13,9 +13,7 @@ Please try to move the [sample module](https://github.com/hotchemi/StringPicker/
 
 ## How to use
 
-### StringPicker
-
-### StringPickerDialog
+### WheelPickerDialog
 
 implements in your activity.
 
