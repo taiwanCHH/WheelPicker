@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/apple/AndroidStudioProjects/WheelPicker/sample/build/intermediates/exploded-aar/WheelPicker/wheel/unspecified/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="2aadf0ddf68f73f15fed8e1a215a31c5df22f02c">
+        <dex dex="/Users/apple/AndroidStudioProjects/WheelPicker/sample/build/intermediates/pre-dexed/debug/classes-f608b71ddaa538350829e83afd9e98298cc2a4a0.jar" />
+    </item>
+    <item
+        jar="/Users/apple/AndroidStudioProjects/WheelPicker/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/apple/AndroidStudioProjects/WheelPicker/sample/build/intermediates/pre-dexed/debug/classes-e7e30752e4a855235803f3bc482ac3ff6e2c7a74.jar" />
+    </item>
+    <item
+        jar="/Users/apple/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/apple/AndroidStudioProjects/WheelPicker/sample/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-f4f248b90d0457da1de697648c4b9012313e729f.jar" />
+    </item>
+    <item
+        jar="/Users/apple/AndroidStudioProjects/WheelPicker/sample/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/apple/AndroidStudioProjects/WheelPicker/sample/build/intermediates/pre-dexed/debug/classes-10158532918d58b4698bfea367f86d27227e3551.jar" />
+    </item>
+    <item
+        jar="/Users/apple/AndroidStudioProjects/WheelPicker/sample/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/apple/AndroidStudioProjects/WheelPicker/sample/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-ab76b159482ea40f09435db8b95054adf6225cdf.jar" />
+    </item>
+
+</items>
