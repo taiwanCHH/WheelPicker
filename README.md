@@ -1,9 +1,7 @@
 WheelPicker
 ============
 
-WheelPicker is a library to provides a custom view and dialog fragment to pick string value.
-
-![screen shot](http://gifzo.net/5dMGZEDfpZ.gif)
+WheelPicker is a library to provides a dialog fragment to pick two string value.
 
 
 
@@ -68,7 +66,7 @@ Supports Android 4.0 or greater.
 ## License
 
 ```
-Copyright 2014 Shintaro Katafuchi
+Copyright 2014 taiwanCHH
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
