@@ -20,8 +20,16 @@ implements in your activity.
 ```java
 StringPickerDialog dialog = new StringPickerDialog();
 Bundle bundle = new Bundle();
-List first;
+//set picker data
+//first picker data is List
+List<String> first;
+first.add(...);
+...
+//second picker data is HashMap<String,List>
+//HashMap key value is mapping to first picker string
+//List is mapping success second picker string collection
 Hasp second;
+second.put(key,list);
 bundle.putParcelable(getString(R.string.string_picker_dialog_values), new DataModel(first,second));
 dialog.setArguments(bundle);
 dialog.show(getSupportFragmentManager(), TAG);
