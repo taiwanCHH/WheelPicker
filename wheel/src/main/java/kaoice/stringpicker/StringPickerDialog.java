@@ -9,6 +9,7 @@ import android.support.v4.app.DialogFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -46,10 +47,24 @@ public class StringPickerDialog extends DialogFragment {
         stringPicker.setSelectChangedListener(new StringPicker.OnSelectChangedListener() {
             @Override
             public void onSelectChanged(String value) {
-                stringPicker2.setValues((List) (secondData.get(value)));
+
+                if (secondData.get(value) == null) {
+                    stringPicker2.setVisibility(View.INVISIBLE);
+                    stringPicker2.setValues(new String[]{""});
+                } else {
+                    stringPicker2.setVisibility(View.VISIBLE);
+                    stringPicker2.setValues((List) secondData.get(value));
+                }
+
             }
         });
-        stringPicker2.setValues((List) (secondData.get(values.getFirst().get(0))));
+        if(secondData.get(values.getFirst().get(0))==null){
+            stringPicker2.setVisibility(View.INVISIBLE);
+            stringPicker2.setValues(new String[]{""});
+        }else{
+            stringPicker2.setVisibility(View.VISIBLE);
+            stringPicker2.setValues((List) (secondData.get(values.getFirst().get(0))));
+        }
 
 
         AlertDialog.Builder builder = new AlertDialog.Builder(mActivity);

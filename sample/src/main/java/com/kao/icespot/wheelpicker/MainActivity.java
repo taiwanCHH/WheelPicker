@@ -30,7 +30,6 @@ public class MainActivity extends ActionBarActivity implements
         Button button = (Button) findViewById(R.id.button);
         button.setOnClickListener(this);
 
-
     }
 
 

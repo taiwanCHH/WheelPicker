@@ -2,10 +2,17 @@
 <items version="2" >
 
     <item
+        jar="/Users/apple/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="/Users/apple/AndroidStudioProjects/WheelPicker/sample/build/intermediates/pre-dexed/debug/butterknife-6.1.0-a75b6a8ff66443e3fd50dcb71a51820c5f7eee95.jar" />
+    </item>
+    <item
         jar="/Users/apple/AndroidStudioProjects/WheelPicker/sample/build/intermediates/exploded-aar/WheelPicker/wheel/unspecified/classes.jar"
         jumboMode="false"
         revision="22.0.0"
-        sha1="2aadf0ddf68f73f15fed8e1a215a31c5df22f02c">
+        sha1="4e89b6eb5b7c731e7b7f0c3b41b3c1d3571518e5">
         <dex dex="/Users/apple/AndroidStudioProjects/WheelPicker/sample/build/intermediates/pre-dexed/debug/classes-f608b71ddaa538350829e83afd9e98298cc2a4a0.jar" />
     </item>
     <item
